@@ -1,6 +1,5 @@
 header.container-fluid{
   background-color: #1abc9c;
-  height: 700px;
   position: relative;
   padding: 0;
 }
@@ -12,8 +11,27 @@ div.container.basso{
   background-color: pink;
   height: 450px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 h1{
   font-size: 55px;
   color: #ffffff;
+}
+p.star{
+  padding: 20px 0;
+}
+section.container-fluid{
+  background-color: pink;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+h2{
+  font-size: 46px;
+  color: #2c3e50;
+}
+.box{
+  height: 250px;
+  width: 350px;
+  background-color: green;
+  margin: 15px;
 }
