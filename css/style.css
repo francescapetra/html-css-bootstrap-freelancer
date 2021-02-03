@@ -20,6 +20,18 @@ h1{
 p.star{
   padding: 20px 0;
 }
+p.name{
+  padding: 40px 0;
+  border-bottom: 1px solid black;
+}
+p.name_last{
+  padding-top: 40px;
+}
+p.send{
+  margin-top: 100px;
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
 section.container-fluid,
 section.container-fluid.centro{
   padding-top: 30px;
