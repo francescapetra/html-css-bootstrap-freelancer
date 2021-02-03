@@ -1,6 +1,6 @@
-header.container-fluid{
+header.container-fluid,
+section.container-fluid.centro{
   background-color: #1abc9c;
-  position: relative;
   padding: 0;
 }
 div.container-fluid.nav{
@@ -20,8 +20,8 @@ h1{
 p.star{
   padding: 20px 0;
 }
-section.container-fluid{
-  background-color: pink;
+section.container-fluid,
+section.container-fluid.centro{
   padding-top: 30px;
   padding-bottom: 50px;
 }
@@ -34,4 +34,8 @@ h2{
   width: 350px;
   background-color: green;
   margin: 15px;
+}
+div.container.max_width{
+  max-width: 60%;
+  margin-bottom: 30px;
 }
