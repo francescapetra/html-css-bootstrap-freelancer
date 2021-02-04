@@ -10,23 +10,23 @@
 .bg_second {
   background-color: #1abc9c;
 }
+header{
+  position: relative;
+}
 .header_top {
   padding: 20px 0;
+  /* position: fixed; */
+  z-index: 10;
+  width: 100%;
 }
 .header_bottom {
-  padding: 60px 0;
+  padding: 50px 0 60px 0;;
 }
 .text_white {
   color: #fff;
 }
 .text_blu {
   color: #2c3e50;
-}
-.header_top {
-  padding: 20px 0;
-}
-.header_bottom {
-  padding: 60px 0;
 }
 a.nav_logo,
 a.nav_link{
@@ -49,16 +49,39 @@ a.nav_link{
 }
 .btn{
   display: inline-block;
-  padding: 15px;
   font-weight: bolder;
   margin: 5px auto;
 }
+div.box_img{
+width: 250px;
+height: 100%;
+margin-bottom: 5px;
+display: inline-block;
+}
+img.tizio{
+  height: 100%
+}
 h1{
-  font-size: 55px;
+  font-size: 52px;
   font-weight: 700;
 }
-p.star{
-  padding: 20px 0;
+div.star{
+  padding: 10px 0;
+  display: inline-block;
+  width: 300px;
+}
+hr{
+  vertical-align: middle;
+  display: inline-block;
+  border: 2px solid #fff;
+  width: 30%;
+  background-color: #fff;
+}
+i{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 15px;
+  font-size: 35px;
 }
 p.name{
   padding: 40px 0;
@@ -71,12 +94,16 @@ p.send{
   margin-top: 100px;
   border-top: 1px solid black;
 }
+p.graphic{
+  font-size: 20px;
+}
 section{
   padding-top: 30px;
   padding-bottom: 50px;
 }
 h2{
-  font-size: 46px;
+  font-size: 36px;
+  font-weight: 800;
 }
 .color{
   background-color: yellow;
