@@ -49,6 +49,12 @@ a.nav_link{
   font-weight: bolder;
   margin: 5px auto;
 }
+.btn_send{
+  color: #fff;
+  padding: 10px 15px;
+  font-weight: 400;
+  display: inline-block;
+}
 div.box_img{
 width: 250px;
 height: 200px;
@@ -94,8 +100,12 @@ p.send{
   margin-top: 100px;
   border-top: 1px solid black;
 }
-p.graphic{
+p.graphic,
+p.lorem{
   font-size: 20px;
+}
+p.lorem{
+  margin: 0 30px;
 }
 section{
   padding-top: 30px;
@@ -117,13 +127,12 @@ div.container-fluid.fine{
   padding: 20px;
 }
 
-
 /* overlay */
 
 div.relative_over{
   position: relative;
   width: 100%;
-  max-width: 250px;
+  max-width: 350px;
   overflow: hidden;
 }
 img.border_r{
@@ -146,4 +155,40 @@ img.border_r{
 }
 div.relative_over:hover .overlay{
   opacity: 1;
+}
+
+.plus_plus{
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.btn.download{
+  border: 2px solid white;
+  font-weight: 400;
+}
+i.scarica{
+  font-size: 18px;
+}
+.text-gray{
+  font-size: 20px;
+}
+.form-control{
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  border-bottom: 1px solid gray;
+  padding: 50px 0;
+}
+.form-control.name-last{
+ padding-bottom: 200px;
+}
+.btn_send{
+  margin-top: 20px;
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 500;
 }
